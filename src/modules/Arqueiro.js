@@ -2,7 +2,7 @@ import { Personagem } from "./Personagem.js";
 
 export class Arqueiro extends Personagem {
     destreza
-    tipo = 'Arqueiro'
+    static tipo = 'Arqueiro'
 
     constructor(nome, level, destreza) {
         super(nome, level)
