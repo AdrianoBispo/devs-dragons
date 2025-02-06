@@ -15,6 +15,6 @@ export class Personagem {
         if (this.level >= 5){
             return `${this.constructor.tipo} Implacavel`
         }
-        return `${this.constructor.     tipo} iniciante`
+        return `${this.constructor.tipo} iniciante`
     }
 }
